@@ -1,9 +1,7 @@
-Predix Development Kit Winddata Time Series Service
+Smart Watering System
 ==================================================
+The aim of our application is to conserve water and create a positive environmental and economic impact by reducing water usage/wastage in the landscape management. Our Application computes the evaporation rate of the soil to determine the best time for water-sprinklers, installed on the SFSU lawns, to be turned on or off. In addition, based on weather forecasts such as predictions of rain, humidity, etc. the application also optimizes the duration for which the sprinklers should remain on. The application provides summary reports to clients/users about the duration the sprinklers were used and the amount of water consumed. Large percentage of agriculture is destroyed due to overwatering rather than dryness, which we hope to change with our system, causing a greater positive impact on the environment.
 
-Welcome to Winddata Time Series Service. This is a back-end application built in Java and Spring. It is an extension of [predix-microservice-cf-jsr](https://github.com/PredixDev/predix-microservice-cf-jsr). The application exposes Rest APIs for getting time series tags, data points for one year, and the latest data point. 
-
-NOTE: This application relies on setting up of UAA and Time Series service instances in the Predix Cloud. For further information on how to set up, please visit our [Exploring Time Series Journey](https://www.predix.io/resources/tutorials/journey.html#Journey.Exploring Time Series).
 
 ##Run integration tests
 
